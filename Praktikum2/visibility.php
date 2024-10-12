@@ -1,15 +1,14 @@
-<!-- visibility.php -->
- <?php
+<?php
 
- class visibility{
+class visibility{
     public $public = 'public';
     private $private = 'private';
-    protected $protected = 'prptected';
+    protected $protected = 'protected';
 
-    function tampilkanProperty(){
-        echo  "ini akses di luar kelas <br>";
-        echo  "public : " . $this->public . '<br>';
+    function tampilkanproperty(){
+        echo "ini diakses di dalam kelas <br>";
+        echo "public : " . $this->public . '<br>';
         echo "protected : " . $this->protected . '<br>';
         echo "private : " . $this->private . '<br>';
     }
- }
+}

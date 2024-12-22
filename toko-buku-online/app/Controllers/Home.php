@@ -8,17 +8,14 @@ class Home extends BaseController
     {
         return view('index');
     }
-
     public function chart()
     {
         return view('chart');
     }
-
     public function checkout()
     {
         return view('checkout');
     }
-
     public function submit()
     {
         return view('submit');

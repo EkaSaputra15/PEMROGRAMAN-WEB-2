@@ -1,26 +1,28 @@
-<?= $this->extend('template')?>
+<?= $this->extend('template') ?>
 
-<?= $this->section('main')?>
-<div class="container mt-5">
-  <h2>Review Order</h2>
-  <hr>
-  <h5>Bumi Manusia</h5> @1
-  <h5>Rp. 45.000</h5>
+<?= $this->section('main') ?>
 
-<h2 class="mt-5">Alamat Pengirim</h2>
-<hr>
-<h5 >Jl. muaro jambi - muaro bulian KM 16, Sungai Duren.</h5>
+<div class="container">
+    <h2>REVIEW ORDER</h2>
+    <hr />
+    <h5>BUMI MANUSIA</h5>
+    <h5>Rp80,000</h5>
 
-<h2 class="mt-5">Metode Bayar</h2>
-<hr>
-<h5>Tranfer bank</h5>
-<h5>BCA James Bond</h5>
-<h5>Rek. 112245463</h5>
+    <h2 class="mt-3">Alamat Pengiriman</h2>
+    <hr />
+    <h5>Jl. Muaro Jambi - Muaro Bulian Km 16, Sungai Duren.</h5>
 
-<div class="mt-4">
+    <h2 class="mt-3">METODE BAYAR</h2>
+    <hr />
+    <h5>Transfer Bank</h5>
+    <h5>BRI Eka Saputra</h5>
+    <h5>Rek. 01872176718817</h5>
+
+    <div class="mt-4">
   <form action="<?= base_url('submit')?>" method="POST">
-<button type="submit" class="btn btn-danger mb-5">Submit Order</button>
+<button type="submit" class="badge text-bg-warning mb-5">Submit Order</button>
 </form>
 </div>
+
 </div>
 <?= $this->endSection()?>
